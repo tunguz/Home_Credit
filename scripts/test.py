@@ -11,6 +11,7 @@ from sklearn.preprocessing import LabelEncoder
 import numpy as np
 import optuna
 import gc
+import logging
 
 num_round = 1000
 
@@ -59,8 +60,16 @@ def main():
         dtrain = xgb.dask.DaskDMatrix(client, train_x, train_y)
         dtest = xgb.dask.DaskDMatrix(client, test_x, test_y)
 
-        study = optuna.create_study(direction='maximize')
-        study.optimize(lambda trial: objective(client, dtrain, dtest, test_y, trial), n_trials=50)
+        logger = logging.getLogger()
+        logger.setLevel(logging.INFO)  # Setup the root logger.
+        logger.addHandler(logging.FileHandler("optuna_xgb_output3.log", mode="w"))
+
+        optuna.logging.enable_propagation()  # Propagate logs to the root logger.
+        optuna.logging.disable_default_handler()  # Stop showing logs in sys.stderr.
+
+        study = optuna.create_study(direction='maximize') 
+        logger.info("Start optimization.")
+        study.optimize(lambda trial: objective(client, dtrain, dtest, test_y, trial), n_trials=3)
 
 if __name__ == "__main__":
     main()

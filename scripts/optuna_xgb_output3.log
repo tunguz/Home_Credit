@@ -1,0 +1,17 @@
+A new study created in memory with name: no-name-90ba9887-4ad8-4b9d-a904-6994bde230d6
+Start optimization.
+start listen on 10.110.42.38:9091
+@tracker All of 4 nodes getting started
+@tracker All nodes finishes job
+@tracker 30.96373748779297 secs between node start and job finish
+Trial 0 finished with value: 0.7953242758384 and parameters: {'objective': 'binary:logistic', 'tree_method': 'gpu_hist', 'lambda': 1.1028640731938801, 'alpha': 0.01318423459257259, 'colsample_bytree': 0.35929756966657805, 'subsample': 0.6040547731665185, 'learning_rate': 0.020107421854681513, 'max_depth': 7, 'min_child_weight': 270, 'eval_metric': 'logloss'}. Best is trial 0 with value: 0.7953242758384.
+start listen on 10.110.42.38:9091
+@tracker All of 4 nodes getting started
+@tracker All nodes finishes job
+@tracker 27.731887340545654 secs between node start and job finish
+Trial 1 finished with value: 0.7851842108741165 and parameters: {'objective': 'binary:logistic', 'tree_method': 'gpu_hist', 'lambda': 0.15904794853056486, 'alpha': 0.15465050524498125, 'colsample_bytree': 0.8074784896602685, 'subsample': 0.8135678088580124, 'learning_rate': 0.0967257823728493, 'max_depth': 5, 'min_child_weight': 4, 'eval_metric': 'logloss'}. Best is trial 0 with value: 0.7953242758384.
+start listen on 10.110.42.38:9091
+@tracker All of 4 nodes getting started
+@tracker All nodes finishes job
+@tracker 30.5661039352417 secs between node start and job finish
+Trial 2 finished with value: 0.7918615564888281 and parameters: {'objective': 'binary:logistic', 'tree_method': 'gpu_hist', 'lambda': 2.185458218792287, 'alpha': 0.005225886140188975, 'colsample_bytree': 0.8256938661823785, 'subsample': 0.6513933934133805, 'learning_rate': 0.014780747126146295, 'max_depth': 5, 'min_child_weight': 185, 'eval_metric': 'logloss'}. Best is trial 0 with value: 0.7953242758384.
