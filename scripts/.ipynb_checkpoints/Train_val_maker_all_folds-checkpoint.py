@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-from sklearn.model_selection StratifiedKFold
+from sklearn.model_selection import StratifiedKFold
 
 
 train = pd.read_csv('../input/train_1830.csv')
