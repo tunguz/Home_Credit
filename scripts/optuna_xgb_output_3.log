@@ -1,65 +1,65 @@
-A new study created in RDB with name: five_fold_optuna_xgb_1
+A new study created in RDB with name: five_fold_optuna_xgb_3
 Start optimization.
 start listen on 192.168.1.200:9091
 @tracker All of 2 nodes getting started
 @tracker All nodes finishes job
-@tracker 50.5697021484375 secs between node start and job finish
+@tracker 69.02442455291748 secs between node start and job finish
 start listen on 192.168.1.200:9091
 @tracker All of 2 nodes getting started
 @tracker All nodes finishes job
-@tracker 55.71733355522156 secs between node start and job finish
+@tracker 66.45389485359192 secs between node start and job finish
 start listen on 192.168.1.200:9091
 @tracker All of 2 nodes getting started
 @tracker All nodes finishes job
-@tracker 52.50864839553833 secs between node start and job finish
+@tracker 67.84776711463928 secs between node start and job finish
 start listen on 192.168.1.200:9091
 @tracker All of 2 nodes getting started
 @tracker All nodes finishes job
-@tracker 55.668166399002075 secs between node start and job finish
+@tracker 67.81800770759583 secs between node start and job finish
 start listen on 192.168.1.200:9091
 @tracker All of 2 nodes getting started
 @tracker All nodes finishes job
-@tracker 54.315258264541626 secs between node start and job finish
-Trial 0 finished with value: 0.7871088120084473 and parameters: {'objective': 'binary:logistic', 'tree_method': 'gpu_hist', 'lambda': 0.9237827089872013, 'alpha': 2.149527441327325, 'colsample_bytree': 0.8340046076524081, 'subsample': 0.42015675502978456, 'learning_rate': 0.0944374615163666, 'max_depth': 9, 'min_child_weight': 236, 'eval_metric': 'logloss'}. Best is trial 0 with value: 0.7871088120084473.
+@tracker 70.39456915855408 secs between node start and job finish
+Trial 0 finished with value: 0.7901104459031365 and parameters: {'objective': 'binary:logistic', 'tree_method': 'gpu_hist', 'lambda': 0.002616267416739127, 'alpha': 0.009803055927627695, 'colsample_bytree': 0.9691894520798701, 'subsample': 0.7540186081319316, 'learning_rate': 0.08961878864920057, 'max_depth': 13, 'min_child_weight': 281, 'eval_metric': 'logloss'}. Best is trial 0 with value: 0.7901104459031365.
 start listen on 192.168.1.200:9091
 @tracker All of 2 nodes getting started
 @tracker All nodes finishes job
-@tracker 111.3668622970581 secs between node start and job finish
+@tracker 29.453768014907837 secs between node start and job finish
 start listen on 192.168.1.200:9091
 @tracker All of 2 nodes getting started
 @tracker All nodes finishes job
-@tracker 112.10221028327942 secs between node start and job finish
+@tracker 31.408845901489258 secs between node start and job finish
 start listen on 192.168.1.200:9091
 @tracker All of 2 nodes getting started
 @tracker All nodes finishes job
-@tracker 109.70658087730408 secs between node start and job finish
+@tracker 28.60407567024231 secs between node start and job finish
 start listen on 192.168.1.200:9091
 @tracker All of 2 nodes getting started
 @tracker All nodes finishes job
-@tracker 114.33773040771484 secs between node start and job finish
+@tracker 32.60361576080322 secs between node start and job finish
 start listen on 192.168.1.200:9091
 @tracker All of 2 nodes getting started
 @tracker All nodes finishes job
-@tracker 110.54170203208923 secs between node start and job finish
-Trial 1 finished with value: 0.7934994420770072 and parameters: {'objective': 'binary:logistic', 'tree_method': 'gpu_hist', 'lambda': 1.0811287135248413, 'alpha': 0.6223376732953362, 'colsample_bytree': 0.5389549547189605, 'subsample': 0.5855494424321495, 'learning_rate': 0.03745130422658053, 'max_depth': 11, 'min_child_weight': 23, 'eval_metric': 'logloss'}. Best is trial 1 with value: 0.7934994420770072.
+@tracker 33.571086406707764 secs between node start and job finish
+Trial 1 finished with value: 0.7900027670113396 and parameters: {'objective': 'binary:logistic', 'tree_method': 'gpu_hist', 'lambda': 0.051186093797599835, 'alpha': 0.3703913299352746, 'colsample_bytree': 0.4491854575745109, 'subsample': 0.47781416779476105, 'learning_rate': 0.015264129758892162, 'max_depth': 3, 'min_child_weight': 190, 'eval_metric': 'logloss'}. Best is trial 0 with value: 0.7901104459031365.
 start listen on 192.168.1.200:9091
 @tracker All of 2 nodes getting started
 @tracker All nodes finishes job
-@tracker 70.83005833625793 secs between node start and job finish
+@tracker 118.59911441802979 secs between node start and job finish
 start listen on 192.168.1.200:9091
 @tracker All of 2 nodes getting started
 @tracker All nodes finishes job
-@tracker 52.438966512680054 secs between node start and job finish
+@tracker 111.96154499053955 secs between node start and job finish
 start listen on 192.168.1.200:9091
 @tracker All of 2 nodes getting started
 @tracker All nodes finishes job
-@tracker 54.795610189437866 secs between node start and job finish
+@tracker 112.16859173774719 secs between node start and job finish
 start listen on 192.168.1.200:9091
 @tracker All of 2 nodes getting started
 @tracker All nodes finishes job
-@tracker 59.51777744293213 secs between node start and job finish
+@tracker 109.39672327041626 secs between node start and job finish
 start listen on 192.168.1.200:9091
 @tracker All of 2 nodes getting started
 @tracker All nodes finishes job
-@tracker 60.99387574195862 secs between node start and job finish
-Trial 2 finished with value: 0.7968708543056313 and parameters: {'objective': 'binary:logistic', 'tree_method': 'gpu_hist', 'lambda': 0.008495803117765415, 'alpha': 0.9794347229656094, 'colsample_bytree': 0.36331480978139946, 'subsample': 0.6230732880919797, 'learning_rate': 0.05630883994326929, 'max_depth': 17, 'min_child_weight': 272, 'eval_metric': 'logloss'}. Best is trial 2 with value: 0.7968708543056313.
+@tracker 111.77027297019958 secs between node start and job finish
+Trial 2 finished with value: 0.7738210700959653 and parameters: {'objective': 'binary:logistic', 'tree_method': 'gpu_hist', 'lambda': 0.054161274243816136, 'alpha': 1.8130887914237492, 'colsample_bytree': 0.7612046037182509, 'subsample': 0.9531417190315602, 'learning_rate': 0.0015712448326878849, 'max_depth': 11, 'min_child_weight': 229, 'eval_metric': 'logloss'}. Best is trial 0 with value: 0.7901104459031365.

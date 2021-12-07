@@ -1,0 +1,9 @@
+A new study created in RDB with name: five_fold_optuna_xgb_2_3
+Start optimization.
+Trial 0 failed because of the following error: TypeError('objective() takes 1 positional argument but 8 were given')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/optuna/study/_optimize.py", line 213, in _run_trial
+    value_or_values = func(trial)
+  File "Five_Fold_Optuna_XGBoost_T2.py", line 106, in <lambda>
+    study.optimize(lambda trial: objective(client, application_train, target, train_oof, train_folds, val_folds,
+TypeError: objective() takes 1 positional argument but 8 were given

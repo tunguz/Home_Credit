@@ -1,0 +1,29 @@
+A new study created in RDB with name: five_fold_optuna_xgb_3
+Start optimization.
+start listen on 192.168.1.200:9091
+@tracker All of 2 nodes getting started
+@tracker All nodes finishes job
+@tracker 69.02442455291748 secs between node start and job finish
+start listen on 192.168.1.200:9091
+@tracker All of 2 nodes getting started
+@tracker All nodes finishes job
+@tracker 66.45389485359192 secs between node start and job finish
+start listen on 192.168.1.200:9091
+@tracker All of 2 nodes getting started
+@tracker All nodes finishes job
+@tracker 67.84776711463928 secs between node start and job finish
+start listen on 192.168.1.200:9091
+@tracker All of 2 nodes getting started
+@tracker All nodes finishes job
+@tracker 67.81800770759583 secs between node start and job finish
+start listen on 192.168.1.200:9091
+@tracker All of 2 nodes getting started
+@tracker All nodes finishes job
+@tracker 70.39456915855408 secs between node start and job finish
+Trial 0 finished with value: 0.7901104459031365 and parameters: {'objective': 'binary:logistic', 'tree_method': 'gpu_hist', 'lambda': 0.002616267416739127, 'alpha': 0.009803055927627695, 'colsample_bytree': 0.9691894520798701, 'subsample': 0.7540186081319316, 'learning_rate': 0.08961878864920057, 'max_depth': 13, 'min_child_weight': 281, 'eval_metric': 'logloss'}. Best is trial 0 with value: 0.7901104459031365.
+start listen on 192.168.1.200:9091
+@tracker All of 2 nodes getting started
+@tracker All nodes finishes job
+@tracker 29.453768014907837 secs between node start and job finish
+start listen on 192.168.1.200:9091
+@tracker All of 2 nodes getting started
