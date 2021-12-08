@@ -1,0 +1,85 @@
+Start optimization.
+start listen on 10.110.42.38:9091
+@tracker All of 4 nodes getting started
+@tracker All nodes finishes job
+@tracker 81.91567373275757 secs between node start and job finish
+start listen on 10.110.42.38:9091
+@tracker All of 4 nodes getting started
+@tracker All nodes finishes job
+@tracker 82.77896165847778 secs between node start and job finish
+start listen on 10.110.42.38:9091
+@tracker All of 4 nodes getting started
+@tracker All nodes finishes job
+@tracker 78.52188324928284 secs between node start and job finish
+start listen on 10.110.42.38:9091
+@tracker All of 4 nodes getting started
+@tracker All nodes finishes job
+@tracker 85.29719376564026 secs between node start and job finish
+start listen on 10.110.42.38:9091
+@tracker All of 4 nodes getting started
+@tracker All nodes finishes job
+@tracker 78.40595889091492 secs between node start and job finish
+Trial 3 finished with value: 0.7833455733472142 and parameters: {'objective': 'binary:logistic', 'tree_method': 'gpu_hist', 'lambda': 0.05204425315197294, 'alpha': 0.3419574831346868, 'colsample_bytree': 0.8655103977306926, 'subsample': 0.7291818843596867, 'learning_rate': 0.0037383743364850855, 'max_depth': 13, 'min_child_weight': 156, 'eval_metric': 'logloss'}. Best is trial 0 with value: 0.7901104459031365.
+start listen on 10.110.42.38:9091
+@tracker All of 4 nodes getting started
+@tracker All nodes finishes job
+@tracker 145.71095848083496 secs between node start and job finish
+start listen on 10.110.42.38:9091
+@tracker All of 4 nodes getting started
+@tracker All nodes finishes job
+@tracker 151.80295872688293 secs between node start and job finish
+start listen on 10.110.42.38:9091
+@tracker All of 4 nodes getting started
+@tracker All nodes finishes job
+@tracker 146.86976861953735 secs between node start and job finish
+start listen on 10.110.42.38:9091
+@tracker All of 4 nodes getting started
+@tracker All nodes finishes job
+@tracker 153.66801810264587 secs between node start and job finish
+start listen on 10.110.42.38:9091
+@tracker All of 4 nodes getting started
+@tracker All nodes finishes job
+@tracker 148.25522708892822 secs between node start and job finish
+Trial 4 finished with value: 0.7868063396792554 and parameters: {'objective': 'binary:logistic', 'tree_method': 'gpu_hist', 'lambda': 0.0017606960924347655, 'alpha': 0.16352017776067285, 'colsample_bytree': 0.7746535488127746, 'subsample': 0.8008431753366521, 'learning_rate': 0.003447923980362652, 'max_depth': 20, 'min_child_weight': 71, 'eval_metric': 'logloss'}. Best is trial 0 with value: 0.7901104459031365.
+start listen on 10.110.42.38:9091
+@tracker All of 4 nodes getting started
+@tracker All nodes finishes job
+@tracker 34.92480397224426 secs between node start and job finish
+start listen on 10.110.42.38:9091
+@tracker All of 4 nodes getting started
+@tracker All nodes finishes job
+@tracker 33.409276247024536 secs between node start and job finish
+start listen on 10.110.42.38:9091
+@tracker All of 4 nodes getting started
+@tracker All nodes finishes job
+@tracker 33.96199417114258 secs between node start and job finish
+start listen on 10.110.42.38:9091
+@tracker All of 4 nodes getting started
+@tracker All nodes finishes job
+@tracker 28.67916774749756 secs between node start and job finish
+start listen on 10.110.42.38:9091
+@tracker All of 4 nodes getting started
+@tracker All nodes finishes job
+@tracker 26.93481731414795 secs between node start and job finish
+Trial 5 finished with value: 0.7968079745500505 and parameters: {'objective': 'binary:logistic', 'tree_method': 'gpu_hist', 'lambda': 8.34096787597153, 'alpha': 0.007014367772641966, 'colsample_bytree': 0.40332360891605024, 'subsample': 0.8668287397064394, 'learning_rate': 0.01798070223251322, 'max_depth': 5, 'min_child_weight': 136, 'eval_metric': 'logloss'}. Best is trial 5 with value: 0.7968079745500505.
+start listen on 10.110.42.38:9091
+@tracker All of 4 nodes getting started
+@tracker All nodes finishes job
+@tracker 32.99781656265259 secs between node start and job finish
+start listen on 10.110.42.38:9091
+@tracker All of 4 nodes getting started
+@tracker All nodes finishes job
+@tracker 28.96111512184143 secs between node start and job finish
+start listen on 10.110.42.38:9091
+@tracker All of 4 nodes getting started
+@tracker All nodes finishes job
+@tracker 30.60267663002014 secs between node start and job finish
+start listen on 10.110.42.38:9091
+@tracker All of 4 nodes getting started
+@tracker All nodes finishes job
+@tracker 32.673269510269165 secs between node start and job finish
+start listen on 10.110.42.38:9091
+@tracker All of 4 nodes getting started
+@tracker All nodes finishes job
+@tracker 29.725033283233643 secs between node start and job finish
+Trial 6 finished with value: 0.7968350027133968 and parameters: {'objective': 'binary:logistic', 'tree_method': 'gpu_hist', 'lambda': 0.005515545078614094, 'alpha': 0.03237077158638497, 'colsample_bytree': 0.7519905583332611, 'subsample': 0.7742271614398983, 'learning_rate': 0.018338685373539974, 'max_depth': 5, 'min_child_weight': 179, 'eval_metric': 'logloss'}. Best is trial 6 with value: 0.7968350027133968.
